@@ -7,11 +7,11 @@ This setup was created to run a Montage m101 Mosaic workflow  where the output w
 
 ## :bulb: Running the program
 
-To run the Linear Dag Workflow, type the following command:
+To run the Linear DAG Workflow, type the following command:
 ```
 $ condor_submit_dag run.dag
 ```
-To run the Parallelized Dag Workflow, type the following command:
+To run the Parallelized DAG Workflow, type the following command:
 ```
 $ condor_submit_dag runparallel.dag
 ```
