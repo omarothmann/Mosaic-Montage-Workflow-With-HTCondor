@@ -1,0 +1,13 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mProjExec
+arguments = -p rawdir images-rawdir.tbl template.hdr projdir stats.tbl
+
+transfer_input_files = rawdir, template.hdr, images-rawdir.tbl, projdir
+transfer_output_files = stats.tbl, projdir
+
+output = job2.out
+log = job2.log
+error = job2.err
+
+queue

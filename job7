@@ -1,0 +1,13 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mDiffExec
+arguments = -p projdir diffs.tbl template.hdr diffdir
+
+transfer_input_files = projdir, diffs.tbl, template.hdr, diffdir
+transfer_output_files = diffdir
+
+output = job7.out
+log = job7.log
+error = job7.err
+
+queue

@@ -1,0 +1,11 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mOverlaps
+arguments = images.tbl diffs.tbl
+
+transfer_input_files = images.tbl 
+output = job6.out
+log = job6.log
+error = job6.err
+
+queue

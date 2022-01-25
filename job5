@@ -1,0 +1,12 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mViewer
+arguments = -gray m101_uncorrected.fits 20% 99.98% loglog -out m101_uncorrected.jpg
+
+transfer_input_files = m101_uncorrected.fits
+
+output = job5.out
+log = job5.log
+error = job5.err
+
+queue

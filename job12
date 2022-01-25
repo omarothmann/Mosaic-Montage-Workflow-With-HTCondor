@@ -1,0 +1,12 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mViewer
+arguments = -gray m101_mosaic.fits 0s max gaussian-log -out m101_mosaic.jpg
+
+transfer_input_files = m101_mosaic.fits
+
+output = job12.out
+log = job12.log
+error = job12.err
+
+queue

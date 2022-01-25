@@ -1,0 +1,14 @@
+
+
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mBgModel
+arguments = images.tbl fits.tbl corrections.tbl
+
+transfer_input_files = images.tbl, fits.tbl
+
+output = job9.out
+log = job9.log
+error = job9.err
+
+queue

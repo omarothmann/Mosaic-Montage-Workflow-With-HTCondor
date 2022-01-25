@@ -1,0 +1,12 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mAdd
+arguments = -p corrdir images.tbl template.hdr m101_mosaic.fits
+
+transfer_input_files = images.tbl, template.hdr, corrdir
+
+output = job11.out
+log = job11.log
+error = job11.err
+
+queue

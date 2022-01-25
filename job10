@@ -1,0 +1,13 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mBgExec
+arguments = -p projdir images.tbl corrections.tbl corrdir
+
+transfer_input_files = projdir, images.tbl, corrections.tbl, corrdir
+transfer_output_files = corrdir
+
+output = job10.out
+log = job10.log
+error = job10.err
+
+queue

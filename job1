@@ -1,0 +1,11 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+universe = vanilla
+executable = /home/ec2-user/assignment/Montage/bin/mImgtbl
+arguments = rawdir images-rawdir.tbl
+
+transfer_input_files = rawdir
+output = job1.out
+log = job1.log
+error = job1.err
+
+queue

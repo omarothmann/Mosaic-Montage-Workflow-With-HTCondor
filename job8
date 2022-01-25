@@ -1,0 +1,11 @@
+initialdir = /home/ec2-user/assignment/mosaic/m101
+executable = /home/ec2-user/assignment/Montage/bin/mFitExec
+arguments = diffs.tbl fits.tbl diffdir
+
+transfer_input_files = diffs.tbl, diffdir
+
+output = job8.out
+log = job8.log
+error = job8.err
+
+queue
