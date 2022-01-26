@@ -21,11 +21,11 @@ $ ls
 $ condor_q
 $ condor_q -nobatch
 ```
-## Demonstration Video
+## 🎥 Demonstration Video
 
-![](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab_channel=OmarOthman)
+[![Demo](https://raw.githubusercontent.com/omarothmann/Mosaic-Montage-Workflow-With-HTCondor/main/presentation.JPG)](https://youtu.be/TJkEAZb7-so "M101 Mosaic Montage Workflow with HTCondor & DAGManr")
 
-See also [Embed a Youtube video in Github markdown](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab_channel=OmarOthman)
+
 
 
 
