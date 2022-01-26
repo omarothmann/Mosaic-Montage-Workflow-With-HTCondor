@@ -1,5 +1,5 @@
 # M101 Mosaic Montage Workflow with HTCondor
-For this project, we have decided on using a HTCondor cluster of 3 virtual machines running on  Amazon Linux 2 AMI (HVM) - Kernel 5.10 that was setup on Amazon Web Service’s Elastic  Computing Cloud (EC2) servers. 
+For this project, a HTCondor cluster consisting of 3 virtual machines running on  Amazon Linux 2 AMI (HVM) - Kernel 5.10 that was setup on Amazon Web Service’s Elastic  Computing Cloud (EC2) servers. The three virtual machines master, scheduler and worker was set up and paired with Network File System (NFS) before executing the workflow. The master and the scheduler shares a NFS server-client relationship respectively.
 
 This setup was created to run a Montage m101 Mosaic workflow  where the output will be two mosaics of m101 and their corresponding area images. A linear  DAGMan workflow and a parallelized DAGMan workflow were created and executed to measure  the performance and efficiency of the workflows to see which one is better.
 
