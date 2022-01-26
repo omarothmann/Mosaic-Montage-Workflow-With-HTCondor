@@ -23,7 +23,7 @@ $ condor_q -nobatch
 ```
 ## 🎥 Demonstration Video
 
-[![Demo](https://raw.githubusercontent.com/omarothmann/Mosaic-Montage-Workflow-With-HTCondor/main/presentation.JPG)](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab "M101 Mosaic Montage Workflow with HTCondor & DAGManr")
+[![Demo](https://raw.githubusercontent.com/omarothmann/Mosaic-Montage-Workflow-With-HTCondor/main/presentation.JPG)](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab "M101 Mosaic Montage Workflow with HTCondor & DAGMan")
 
 
 
