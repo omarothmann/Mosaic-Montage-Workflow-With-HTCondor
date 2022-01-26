@@ -23,7 +23,9 @@ $ condor_q -nobatch
 ```
 ## Demonstration Video
 
+![](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab_channel=OmarOthman)
 
+See also [Embed a Youtube video in Github markdown](https://www.youtube.com/watch?v=tRkz9I3lH4c&ab_channel=OmarOthman)
 
 
 
